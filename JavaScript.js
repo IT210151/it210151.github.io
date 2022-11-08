@@ -161,7 +161,7 @@ newDice();
         document.getElementById("playerTwo").innerHTML = ""
         document.getElementById("game").innerHTML = ""
         document.getElementById("startButton").innerHTML = ""
-        document.getElementById("gameOver").innerHTML += '<p class="gameOver">Game Over</p><p>'+ playerNameOne +' hat das Match gewonnen</p><a class="buttonTwo" href="./hub.html" >Back</a>'
+        document.getElementById("gameOver").innerHTML += '<p class="gameOver">Game Over</p><p>'+ playerNameOne +' hat das Match gewonnen</p><a class="buttonTwo" href="./index.html" >Back</a>'
         document.getElementById("body").style.backgroundColor = "red";
         document.getElementById("body").style.color = "black";
     }
@@ -170,7 +170,7 @@ newDice();
         document.getElementById("playerTwo").innerHTML = ""
         document.getElementById("game").innerHTML = ""
         document.getElementById("startButton").innerHTML = ""
-        document.getElementById("gameOver").innerHTML += '<p class="gameOver">Game Over</p><p>'+ playerNameTwo +' hat das Match gewonnen</p><a class="buttonTwo" href="./hub.html" >Back</a>'
+        document.getElementById("gameOver").innerHTML += '<p class="gameOver">Game Over</p><p>'+ playerNameTwo +' hat das Match gewonnen</p><a class="buttonTwo" href="./index.html" >Back</a>'
         document.getElementById("body").style.backgroundColor = "red" ;
         document.getElementById("body").style.color = "black";
     }

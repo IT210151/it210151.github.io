@@ -157,21 +157,28 @@ newDice();
         document.getElementById("game").innerHTML += playerName + winner ;
     }
     if(healthTwo <= 0){
-        document.getElementById("playerOne").innerHTML = ""
-        document.getElementById("playerTwo").innerHTML = ""
-        document.getElementById("game").innerHTML = ""
-        document.getElementById("startButton").innerHTML = ""
-        document.getElementById("gameOver").innerHTML += '<p class="gameOver">Game Over</p><p>'+ playerNameOne +' hat das Match gewonnen</p><a class="buttonTwo" href="./index.html" >Back</a>'
-        document.getElementById("body").style.backgroundColor = "red";
-        document.getElementById("body").style.color = "black";
+       
+            document.getElementById("playerOne").innerHTML = ""
+            document.getElementById("playerTwo").innerHTML = ""
+            document.getElementById("game").innerHTML = ""
+            document.getElementById("startButton").innerHTML = ""
+            document.getElementById("gameOver").innerHTML += '<p class="gameOver">Game Over</p><p>'+ playerNameOne +' hat das Match gewonnen</p><a class="buttonTwo" href="./index.html" >Back</a>'
+            document.getElementById("body").style.backgroundColor = "red";
+            document.getElementById("body").style.color = "black";
+        
+        
     }
     if(healthOne <= 0){
-        document.getElementById("playerOne").innerHTML = ""
-        document.getElementById("playerTwo").innerHTML = ""
-        document.getElementById("game").innerHTML = ""
-        document.getElementById("startButton").innerHTML = ""
-        document.getElementById("gameOver").innerHTML += '<p class="gameOver">Game Over</p><p>'+ playerNameTwo +' hat das Match gewonnen</p><a class="buttonTwo" href="./index.html" >Back</a>'
-        document.getElementById("body").style.backgroundColor = "red" ;
-        document.getElementById("body").style.color = "black";
+       
+            document.getElementById("playerOne").innerHTML = ""
+            document.getElementById("playerTwo").innerHTML = ""
+            document.getElementById("game").innerHTML = ""
+            document.getElementById("startButton").innerHTML = ""
+            document.getElementById("gameOver").innerHTML += '<p class="gameOver">Game Over</p><p>'+ playerNameTwo +' hat das Match gewonnen</p><a class="buttonTwo" href="./index.html" >Back</a>'
+            document.getElementById("body").style.backgroundColor = "red" ;
+            document.getElementById("body").style.color = "black";
+
+        
+       
     }
 }

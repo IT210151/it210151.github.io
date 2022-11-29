@@ -149,8 +149,8 @@ function checkTwoDices(){
 
 newDice();
     document.getElementById("startButton").innerHTML = '<div class="startButton" onclick="newGame()">Dice</div>';
-    document.getElementById("playerOne").innerHTML += '<p class = '+ resultShowOne +'>'+playerNameOne+ '<br><img src="./img/heart'+healthOne+'.jpg" alt="bild '+healthOne+'"></img><br>'+ '<img src="./Würfelbeispiele 6-8 CubeClipArt/PinClipart_cube_'+ result +'.png" alt="bild '+result+'"></img><br></p>';
-    document.getElementById("playerTwo").innerHTML += '<p class = '+ resultShowTwo +'>'+playerNameTwo+ '<br><img src="./img/heart'+healthTwo+'.jpg" alt="bild '+healthTwo+'"></img><br>'+ '<img src="./Würfelbeispiele 6-8 CubeClipArt/PinClipart_cube_'+ resultTwo +'.png" alt="bild '+resultTwo+'"></img></p>';
+    document.getElementById("playerOne").innerHTML += '<p class = '+ resultShowOne +'>'+playerNameOne+ '<br><img id="heart" src="./img/heart'+healthOne+'.jpg" alt="bild '+healthOne+'"></img><br>'+ '<img src="./Würfelbeispiele 6-8 CubeClipArt/PinClipart_cube_'+ result +'.png" alt="bild '+result+'"></img><br></p>';
+    document.getElementById("playerTwo").innerHTML += '<p class = '+ resultShowTwo +'>'+playerNameTwo+ '<br><img id="heart" src="./img/heart'+healthTwo+'.jpg" alt="bild '+healthTwo+'"></img><br>'+ '<img src="./Würfelbeispiele 6-8 CubeClipArt/PinClipart_cube_'+ resultTwo +'.png" alt="bild '+resultTwo+'"></img></p>';
     if(result == resultTwo){
         document.getElementById("game").innerHTML += winner ;
     }else{

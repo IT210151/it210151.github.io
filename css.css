@@ -35,25 +35,25 @@ body{
 
 }
 html{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
 }
 h1{
-    margin: 0;
-    padding: 0;
+    margin: 0vh;
+    padding: 0vh;
 }
 .gameTwo{
 display: grid;
-grid-template-columns: 50% 50%;
+grid-template-columns: 50vh 50vh;
 }
 .container{
     display: block;
 }
 
 .buttonContainer{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 30vh;
+    margin-right: 30vh;
 
 }
 .button{
@@ -87,8 +87,8 @@ grid-template-columns: 50% 50%;
     border: 10px solid red;
     color: black;
     transition: 2s;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 40vh;
+    margin-right: 40vh;
 }
 .startButton:hover{
     color: white;
@@ -99,7 +99,7 @@ grid-template-columns: 50% 50%;
 }
 #charakterImageContainer{
     display: grid;
-    grid-template-columns: 40% auto 40%;
+    grid-template-columns: 40vh auto 40vh;
 }
 #game{
 margin-top: 0;
@@ -142,4 +142,24 @@ margin-top: 0;
 #TwoThreeTrans{
     border: red 0vh solid;
     transition: 1s;
+}
+@media(max-width: 800px){
+    body{
+        background-image: none;
+        justify-content: center;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #charakterImageContainer{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    html{
+        width: 100vh;
+        height: 100vh;
+        overflow: unset;
+    }
+    
 }

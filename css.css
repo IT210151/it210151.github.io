@@ -52,8 +52,8 @@ grid-template-columns: 50vh 50vh;
 }
 
 .buttonContainer{
-    margin-left: 30vh;
-    margin-right: 30vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
 
 }
 .button{
@@ -87,8 +87,8 @@ grid-template-columns: 50vh 50vh;
     border: 10px solid red;
     color: black;
     transition: 2s;
-    margin-left: 40vh;
-    margin-right: 40vh;
+    margin-left: 40vw;
+    margin-right: 40vw;
 }
 .startButton:hover{
     color: white;
